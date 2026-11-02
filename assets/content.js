@@ -808,3 +808,21 @@ const GLOSSARY = [
     def: "Shorthand, throughout this algorithm, for a difference judged large enough to matter to patients — operationalised in the review behind this tool as a standardised effect size (Cohen's d) of at least 0.20. A result can fail to reach this threshold, fall short of it, or have a confidence interval too wide to rule it in or out, all of which are different from the two agents being proven equivalent."
   }
 ];
+
+// Clinical agent (drug) names to visually emphasise wherever they appear —
+// in the diagram boxes themselves and in the readout panel's prose. This
+// is a rendering-only concern (app.js wraps each match in a styled span at
+// render time); it never touches label/sub, which stay byte-exact as
+// authored. Matching is case-insensitive and whole-word, longest name
+// first.
+// Added at Dr. Özgür Karcıoğlu's request, 2026-11-02 — see METHODOLOGY.md.
+const AGENTS = [
+  "Aspirin",
+  "Unfractionated heparin",
+  "UFH",
+  "Fondaparinux",
+  "Enoxaparin",
+  "Dalteparin",
+  "Nadroparin",
+  "Tirofiban"
+];
