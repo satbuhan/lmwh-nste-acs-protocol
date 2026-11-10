@@ -12,6 +12,8 @@ the exact dosing as authored, and the sources behind it.
 
 **Authors:** Dr. Özgür Karcıoğlu & Dr. Satuk Buğra Han Bozatlı
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24112583.svg)](https://doi.org/10.5281/zenodo.24112583)
+
 This tool is part of a growing atlas of tools built the same way:
 
 - [Clinical Algorithm Atlas](https://satbuhan.github.io/clinical-algorithm-atlas/) — the hub page for all of them
